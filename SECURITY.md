@@ -2,20 +2,40 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+This project is currently maintained and receives security updates.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Version | Supported |
+| ------- | ---------- |
+| 1.0.x   | ✅ Yes     |
+| < 1.0   | ❌ No      |
+
+---
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+If you discover a security vulnerability, please do NOT open a public issue.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Instead, report it responsibly by:
+
+- Email: your-email@example.com
+- Or create a private security advisory via GitHub
+
+We will respond within 48 hours.
+
+---
+
+## Security Measures Implemented
+
+This project follows cloud security best practices:
+
+- IAM Least Privilege
+- S3 Bucket Policy Restrictions
+- CloudFront Origin Access Control (OAC)
+- Server-Side Encryption Enabled
+- CI/CD Security Scanning (CodeQL, npm audit)
+
+---
+
+## Disclosure Policy
+
+We follow responsible disclosure guidelines. Vulnerabilities will be patched and publicly disclosed after resolution.
